@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-self: center;
     align-items: center;
@@ -29,7 +29,7 @@ button {
 }
 
 .livro{
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: center;
     border: 10px;
@@ -40,6 +40,10 @@ button {
     width: 20%;
     margin-right: 20px;
     margin-left: 5px;
+}
+
+.capa{
+    width: 100%;
 }
 
 .descrição_atributos{
